@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Website</title>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<script type="text/javascript" src="js/JQuery.js"></script>
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+            <nav>
+                <div class="logo">
+                <a href="atom.html"> <img src="images/ws.png"> </a>
+                </div>
+            <ul>
+                <li><a href="atom.html" class="active"> Home </a> </li>
+                <li><a href="#firstsection"> Experience</a></li>
+                <li><a href="#lastsection"> Contact me</a></li>
+            </ul>
+          </nav>
+          <div class="text-container">
+              <p> Hello,</p>
+                <p> I am Waleed Sadouq</p>
+                  <p>
+                      •	Nationality: Jordanian. <br>
+                      •	Date of birth: March, 29th, 1997. <br>
+                      •	Electronic Marketing Student, PSUT Graduated.
+
+
+                  </p>
+          </div>
+
+          <img alt="ana" class="ana" src="images/hp1.png">
+
+          <div class="about-container">
+            <a name="firstsection"></a>
+            <img src="images/ana.jpg"/>
+            <div class="about-text">
+              <p> About me </p>
+                <p> Junior Digital Marketer </p>
+                  <p> I am a dedicated organized and methodical individual. I have good interpersonal skills, am an excellent team worker and am keen and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic approach to work and getting things done. I am determined and decisive. I identify and develop opportunities.</p>
+                    <p> I am an E-marketer Through Social Networks.  </p>
+            </div>
+          </div>
+          <hr>
+          <a name="secondsection"></a>
+          <div class="service">
+              <div class="services-text">
+                <button class="button" onclick="window.open ('exp.html','_blank')";>  Experience </button>
+              </div>
+
+
+          <div class="box-container">
+            <div class="box-1">
+              <span> Graphic Designer </span>
+                  <p class="heading"> Expected Average Skill: </p>
+                    <p class="details"> PhotoShop: 50%. <br> Illustrator: 30%.</p>
+            </div>
+
+          <div class="box-2">
+            <span> Web Design</span>
+                <p class="heading"> Basic Website Design <br> Using HTML & CSS. </p>
+
+          </div>
+
+          <div class="box-3">
+              <span> Marketing specialist </span>
+                  <p class="heading">  </p>
+                    <p class="details"> Brander & Strategist <br> Main Concepts In... <br> SEO & Google Analytics.<p>
+          </div>
+
+        </div>
+      </div>
+        <hr>
+        <div class="contact-me">
+              <p> If you have any project in your mind? </p>
+                      <button class="button" onclick="window.open ('i.html','_blank')";> Contact me </button>
+                  </a>
+        </div>
+      </div>
+        <hr>
+        <footer>
+            <a name="lastsection"></a>
+            <p> Read more about me</p>
+
+                <ul>
+                    <button><li><a href="cv.rtf"> Download CV </a></li></button>
+                </ul>
+
+            <div class="social-icons">
+              <a href="#"> <i class="fab fa-facebook-f"> </i></a>
+              <a href="#"> <i class="fab fa-twitter"> </i></a>
+              <a href="#"> <i class="fab fa-instagram"> </i></a>
+            </div>
+            <p class="copyright">  Website will be adjusted soon to become mobile responsive, <br> SEO practices will be applied as well.</p>
+        </footer>
+        <div class="social">
+          <a href="#"> <i class="fab fa-facebook-f"> </i></a>
+          <a href="#"> <i class="fab fa-twitter"> </i></a>
+          <a href="#"> <i class="fab fa-instagram"> </i></a>
+        </div>
+    </section>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+</body>
+</html>
